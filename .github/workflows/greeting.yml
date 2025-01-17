@@ -6,3 +6,7 @@ jobs:
         steps:
           - name: Greeting
             run: echo "Hello, World!"
+          - name: Greeting1
+            run: echo "Hello, GitHub Actions!"
+          - name: Greeting2
+            run: echo "Hello, CI/CD!"
