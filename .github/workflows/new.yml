@@ -1,11 +1,13 @@
-name: CI Workflow
+name: shahzaib
 on: push
+
 jobs:
-    build:
-        runs-om: ubuntu-latest
-        steps:
-            - name: Checkoutcode
-             uses: actions/checkout@v3
-            - name: Run Tests
-              run: npm test
-              
+  build:
+    runs-on: python-latest
+    steps:
+      - run: echo "Building the project"
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - run: echo "Running tests"
