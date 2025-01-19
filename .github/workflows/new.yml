@@ -7,6 +7,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get your Code
-            - uses: actions/checkout@v2
+              uses: actions/checkout@v2
             - name: say Hello to the world Shahzaib Devops Engineer   
               run: echo " HELLO WORLD"
