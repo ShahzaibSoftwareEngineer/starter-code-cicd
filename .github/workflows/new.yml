@@ -8,5 +8,5 @@ jobs:
         steps:
             - name: Get your Code
             - uses: actions/checkout@v2
-            name: say Hello to the world Shahzaib Devops Engineer   
-            run: echo " HELLO WORLD"
+            - name: say Hello to the world Shahzaib Devops Engineer   
+              run: echo " HELLO WORLD"
