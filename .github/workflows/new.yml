@@ -1,12 +1,10 @@
-name: shahzaib
-
+name: CI Workflow
 on: push
-
 jobs:
     build:
-        runs-on: ubuntu-latest
+        runs-om: ubuntu-latest
         steps:
-            - name: Get your Code
-              uses: actions/checkout@v2
-            - name: say Hello to the world Shahzaib Devops Engineer   
-              run: echo " HELLO WORLD"
+            - name: Checkoutcode
+             uses: actions/checkout@v3
+            - name: Run Tests
+              run: npm
